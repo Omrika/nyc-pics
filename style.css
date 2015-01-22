@@ -1,0 +1,52 @@
+body {
+	width: 100%;
+	margin: auto;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+.header {
+	width: 100%;
+	top: 0;
+	position: fixed;
+	border-bottom: 2px solid #f7f7f7;
+	background-color: #fff;
+  }
+
+.logo {
+	float: left;
+	font-family: times new roman;
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #7f8c8d;
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin-left: 15px;
+	padding-top: 15px;
+	font-size: 16px;
+}
+
+
+.nav {
+	float: right;
+}
+
+p {
+	color: black;
+}
+
+#SlideShowImgs {
+	width: 50px;
+	margin-left: 395px;
+	margin-top: 76px;
+}
