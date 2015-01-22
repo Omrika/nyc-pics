@@ -45,8 +45,28 @@ p {
 	color: black;
 }
 
-#SlideShowImgs {
-	width: 50px;
-	margin-left: 395px;
-	margin-top: 76px;
+.contain {
+	 width:800px;
+    height:390px;
+    padding:20px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    background: black; 
+}
+
+.image_wrapper {
+	overflow: hidden;
+}
+
+#SlideShowImg {
+    height: 280px;
+    padding:0;
+}
+
+#SlideShowImg li {
+	max-width: 100%;
+    float:left;
+    list-style: none;
+
 }
